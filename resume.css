@@ -1,0 +1,109 @@
+/* 
+    General body styles for the entire document
+*/
+body {
+    font-family: Arial, sans-serif; /* Sets the font family for the body text */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+    background-color: #f4f4f4; /* Sets a light gray background color */
+}
+
+/* 
+    Container styles: Controls the main layout and structure of the resume
+*/
+.container {
+    width: 60%; /* Makes the container take up 60% of the page width */
+    margin: 20px auto; /* Centers the container horizontally with a 20px margin at the top */
+    background: white; /* Sets the background color of the container to white */
+    padding: 20px; /* Adds padding inside the container */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adds a subtle shadow for depth */
+}
+
+/* 
+    Header styles: Controls the appearance of the header section
+*/
+.header {
+    padding: 20px; /* Adds padding around the header section */
+}
+
+.header-text {
+    margin-left: 300px; /* Moves the text 300px from the left */
+    display: flex; /* Applies flexbox layout */
+    flex-direction: column; /* Stacks the elements in a vertical column */
+}
+
+.header-text h1 {
+    font-size: 24px; /* Sets the font size for the main name */
+    color: gray; /* Sets the text color to gray */
+    margin-bottom: 7px; /* Adds space below the <h1> element */
+}
+
+.header-text h2 {
+    font-size: 20px; /* Sets the font size for the subtitle */
+    color: rgb(150, 45, 172); /* Sets the text color to a purple shade */
+    margin: 0; /* Removes default margin */
+}
+
+/* 
+    Content layout: Defines how the content sections are displayed
+*/
+.content {
+    color: gray; /* Sets the text color for the content sections */
+    display: flex; /* Uses flexbox layout */
+    justify-content: space-between; /* Distributes space between left and right columns */
+}
+
+/* 
+    Left column styles: Controls the layout of the left column
+*/
+.left-column {
+    width: 30%; /* Sets the left column to take up 30% of the container width */
+    padding-right: 20px; /* Adds padding to the right side of the left column */
+    background: rgb(150, 45, 172); /* Sets a purple background color */
+    padding: 20px; /* Adds padding inside the left column */
+}
+
+/* 
+    Right column styles: Controls the layout of the right column
+*/
+.right-column {
+    padding-left: 5%; /* Adds padding to the left side of the right column */
+    width: 65%; /* Sets the right column to take up 65% of the container width */
+}
+
+/* 
+    Section heading styles: Defines the appearance of section titles (Objective, Experience, Skills)
+*/
+.objective h2,
+.experience h2,
+.skills h2 {
+    color: rgb(150, 45, 172); /* Sets the section heading color to purple */
+}
+
+/* 
+    Contact and Education sections styles: Makes the text in these sections white
+*/
+.contact,
+.education {
+    color: white; /* Sets the text color to white */
+}
+
+/* 
+    General heading styles: Adds a border below all <h3> headings for visual separation
+*/
+h3 {
+    border-bottom: 2px solid #fcfafa; /* Adds a light border under the <h3> headings */
+    padding-bottom: 5px; /* Adds padding below the <h3> to separate from the border */
+}
+
+/* 
+    List styling: Controls the appearance of unordered lists
+*/
+ul {
+    list-style-type: none; /* Removes the default bullet points */
+    padding: 0; /* Removes default padding */
+}
+
+li {
+    margin: 5px 0; /* Adds vertical spacing between list items */
+}

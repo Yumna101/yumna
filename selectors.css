@@ -1,0 +1,34 @@
+/* 
+    Name: Yumna Sumya 
+    Date: 02/10/2025
+    Description: CSS file demonstrating element, class, ID, and pseudoselectors.
+*/
+
+/* Element Selector - Applies to all <h1> elements in the document */
+h1 {
+    color: rgb(165, 212, 250); /* Sets the text color of <h1> elements to a light blue */
+    text-align: center; /* Centers the text within the <h1> element */
+}
+
+/* Class Selector - Targets elements with the class 'highlight' */
+.highlight {
+    color: #de9bad; /* Changes the text color to a soft pink shade */
+    font-weight: bold; /* Makes the text bold */
+}
+
+/* ID Selector - Targets the element with the ID 'unique' */
+#unique {
+    color: rgb(233, 186, 186); /* Sets the text color to a light pink */
+    font-style: italic; /* Makes the text italicized */
+}
+
+/* Pseudoselector 1: Hover effect on button */
+button:hover {
+    background-color: lightgray; /* Changes the button's background to light gray when hovered */
+    cursor: pointer; /* Changes the mouse cursor to a pointer when hovering over the button */
+}
+
+/* Pseudoselector 2: Change text color when the paragraph with class 'hover-text' is hovered */
+.hover-text:hover {
+    color: rgb(195, 167, 230); /* Changes the text color to a light purple when the paragraph is hovered */
+}
